@@ -1,0 +1,34 @@
+<configuration>
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>hbase.rootdir</name>
+        <value>hdfs://centos140:9000/hbase</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>centos140,centos141,centos150,centos151,centos152</value>
+    </property>
+    <property>
+        <name>hbase.tmp.dir</name>
+        <value>/Users/houzhaowei/workspace/hadoop/hbase</value>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.sission.timeout</name>
+        <value>600000</value>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.property.clientPort</name>
+        <value>2181</value>
+    </property>
+
+    <property>
+        <name>hbase.master</name>
+        <value>centos140:60000</value>
+    </property>
+
+ </configuration>
